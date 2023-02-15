@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.event-item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.event-img {
+  height: 255px;
+}
+
+.festival {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: 'Roboto';
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+
+.location {
+  color: #f8fafc;
+  font-size: 18px;
+  font-family: Roboto;
+  padding-left: 10px;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.active-event-img {
+  height: 255px;
+  border: 1px solid #2dd4bf;
+  border-radius: 10px;
+}
